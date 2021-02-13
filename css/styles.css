@@ -80,13 +80,15 @@ a {
 .contacts-link:hover,
 .contacts-link:focus {
   color: #ff6b08;
-  text-shadow: 4px 3px 0px #ffffff;
+  text-shadow: 4px 2px 6px rgba(255, 255, 255, 0.6);
 }
 
 .contacts-icon {
   margin-right: 10px;
   width: 24px;
   height: 24px;
+  border-radius: 50%;
+  background: linear-gradient(64deg, rgba(255, 184, 0, 0.06) 0%, #ccff00 80%);
   fill: currentColor;
 }
 
@@ -156,7 +158,9 @@ a {
   line-height: 24px;
   margin-bottom: 10px;
 }
-
+.title-color {
+  color: #ff6b08;
+}
 .project-item {
   font-weight: 700;
   margin-left: 17px;
@@ -170,6 +174,7 @@ a {
 }
 
 .project-link {
+  margin-right: 5px;
   color: #595959;
   font-size: 14px;
   font-weight: 500;
@@ -181,7 +186,13 @@ a {
   color: #ff6b08;
 }
 
+.tech-box {
+  display: flex;
+  align-items: center;
+}
+
 .tech-name {
+  margin-right: 10px;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -206,6 +217,10 @@ a {
 .dots {
   color: #d3d3d3;
   font-weight: 100;
+}
+
+.profession {
+  margin-bottom: 20px;
 }
 
 .profession-title {
@@ -243,7 +258,13 @@ a {
   line-height: 24px;
   margin-left: 17px;
 }
+.education-list {
+  list-style: none;
+}
 
+.education-item {
+  margin-bottom: 10px;
+}
 .education-title {
   font-size: 16px;
   font-weight: 700;
